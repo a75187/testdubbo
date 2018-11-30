@@ -1,0 +1,1 @@
+使用 docker 下载 zk最新镜像  docker run --name  zk -d -it -p 2182:2181 zookeeper 即可
