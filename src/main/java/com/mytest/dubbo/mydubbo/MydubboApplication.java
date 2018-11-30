@@ -11,6 +11,7 @@ public class MydubboApplication {
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[] {"/provider.xml"});
         context.start();
+        System.out.println("启动成功!");
 
         System.in.read(); // 按任意键退出
         //SpringApplication.run(MydubboApplication.class, args);
